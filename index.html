@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      background-color: #cebacf;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+    }
+
+    .banner img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #4a2040;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover, .active {
+      background-color: #7e4a6c;
+    }
+
+    .section {
+      border: 3px dashed #4a2040;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: #f9edf0;
+      border-radius: 12px;
+      width: 85%;
+    }
+
+    .image-row,
+    .image-row-center {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      padding: 20px 10px;
+    }
+
+    .image-row img,
+    .image-row-center img {
+      max-width: 300px;
+      height: auto;
+      border-radius: 16px;
+      box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .image-row img:hover,
+    .image-row-center img:hover {
+      transform: scale(1.05);
+      box-shadow: 6px 6px 18px rgba(0,0,0,0.3);
+    }
+
+    form input[type="radio"] {
+      margin: 8px;
+      transform: scale(1.2);
+    }
+
+    form input[type="submit"] {
+      padding: 10px 20px;
+      background-color: #4a2040;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    form input[type="submit"]:hover {
+      background-color: #6f2a5d;
+    }
+
+    .footer {
+      background-color: #4a2040;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .footer a {
+      color: #f9edf0;
+      text-decoration: underline;
+    }
+
+    .footer a:hover {
+      color: #f2d0d9;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="banner">
+    <img src="images/banner2.gif" alt="Banner" />
+  </div>
+
+  <ul>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="aboutmee.html">About Me</a></li>
+    <li><a href="favorites.html">Favorites</a></li>
+    <li><a href="photodump.html">Photo Dump</a></li>
+    <li><a href="achievements.html">Achievements</a></li>
+    <li><a href="hope.html">Hope</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+
+  <div style="text-align: center;">
+    <h2 style="color:#4A2040;">(psst...click this while scrolling. enjoy!)</h2>
+
+    <button onclick="document.getElementById('bgMusic').play()" 
+      style="padding: 10px 20px; background-color: #F4E1E1; color: #4A2040; border: none; border-radius: 8px; font-size: 16px; cursor: pointer;">
+      Yes or No - Jung Kook
+    </button>
+    <p style="text-align: center;">Source: Internet Archive</p>
+
+    <br><br>
+
+    <audio id="bgMusic">
+      <source src="audio/yesorno.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+  <div style="text-align: center;">
+    <h1 style="color:#4A2040;">Welcome! Thanks For Stopping By!</h1>
+  </div>
+
+  <div class="section">
+    <p style="text-align:center; font-size: 20px;"><em>This little site is a reflection of who I am — a cozy corner where my thoughts, interests, passions, and all the in-between moments come together. It's a mix of the things I love, the ideas that inspire me, and the stories that make life a bit more meaningful.</em></p>
+
+    <p style="text-align:center; font-size: 20px;"><em>Whether you stumbled upon this space by happy accident or arrived here with purpose, I’m truly glad you’re here. I hope you find something that sparks your curiosity, makes you smile, or maybe even helps you feel a little more connected in this big, beautiful world.</em></p>
+
+    <p style="text-align:center; font-size: 20px;"><em>Feel free to wander around, explore whatever catches your eye, and reach out if you feel like saying hello. This space is open to kindred spirits, curious minds, and anyone who enjoys a good conversation. You're always welcome here.</em></p>
+
+    <p style="text-align:center; font-size: 20px;"><em>Oops, forgot to introduce myself!</em></p>
+    
+    <p style="text-align:center; font-size: 20px;"><strong>HELLO PEEPS! I'M NAJWA!</strong></p>
+    <p style="text-align:center; font-size: 20px;">Here are some of my favorite photos 📸</p>
+  </div>
+
+  <div class="image-row">
+    <img src="images/home1.jpeg" alt="Personal photo 1" />
+    <img src="images/home2.jpeg" alt="Personal photo 2" />
+  </div>
+
+  <div class="image-row-center">
+    <img src="images/home3.jpeg" alt="Personal photo 3" />
+  </div>
+
+  <div class="image-row">
+    <img src="images/home4.jpeg" alt="Personal photo 4" />
+    <img src="images/home5.jpeg" alt="Personal photo 5" />
+  </div>
+
+  <br>
+
+  <p style="text-align:center; font-size: 20px;"><b>You reached the bottom of this page! Shall we move to another page? Why not? Let's go!</b></p>
+  <br>
+  <p style="text-align:center; font-size: 20px;"><b>Oh, before that, do you mind to answer the question below? Thanks!</b></p>
+
+<div style="text-align: center; background-color: #F4E1E1; padding: 20px; border: 3px solid #4A2040; border-radius: 10px; color: #4A2040; font-size: 18px;">
+    <p>Do you like my personal website so far?</p>
+    <form>
+      <input type="radio" id="YES" name="site_opinion" value="YES">
+      <label for="YES">YES</label><br>
+
+      <input type="radio" id="NO" name="site_opinion" value="NO">
+      <label for="NO">NO</label><br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2025, Nur Fatin Najwa Azahar. All rights reserved.<br>
+    <a href="https://www.instagram.com/njwaazahar?igsh=ODlobW0zYW03aWJo" target="_blank">Contact Me</a>
+  </div>
+
+</body>
+</html>
+

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievements</title>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+<body style="background-color:#CEBACF;">
+
+
+<div class="banner">
+       <img src="images/banner2.gif">
+    </div>
+
+
+<ul>
+  <li><a href="index.html">Home</a></li>
+
+  <li><a href="aboutmee.html">About Me</a></li>
+
+  <li><a href="favorites.html">Favorites</a></li>
+
+  <li><a href="photodump.html">Photo Dump</a></li>
+
+  <li><a class="active" href="achievements.html">Achievements</a></li>
+
+  <li><a href="hope.html">Hope</a></li>
+
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+
+
+
+ <div style="text-align: center;">
+  <h2 style="color:#4A2040;">(psst...click this while scrolling. enjoy!)</h2>
+
+  <button onclick="document.getElementById('bgMusic').play()" 
+          style="padding: 10px 20px; background-color: #F4E1E1; color: #4A2040; border: none; border-radius: 8px; font-size: 16px; cursor: pointer;">
+    Akad - Payung Teduh
+  </button>
+  <p style="text-align: center;">Source: Internet Archive</p>
+
+  <br><br>
+
+  <audio id="bgMusic">
+    <source src="audio/akad.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+
+
+<div style="text-align: center;">
+   <h1 style="color:#4A2040;">Best of Me</h1>
+</div>
+
+
+
+<table style="width: 100%; border-collapse: collapse; text-align: center; border: 2px solid #4A2040;">
+  <thead>
+    <tr style="background-color: #f3e8ee;">
+      <th style="border: 2px solid #4A2040; padding: 10px; color: #4A2040;">Little</th>
+      <th style="border: 2px solid #4A2040; padding: 10px; color: #4A2040;">Motivational Quote</th>
+      <th style="border: 2px solid #4A2040; padding: 10px; color: #4A2040;">Huge</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <!-- Row 1 -->
+    <tr>
+      <td style="border: 2px solid #4A2040; padding: 20px;">
+        <img src="images/little1.jpeg" alt="Little 1" style="width: 300px; height: auto;"><br>
+        <p>Manage to pull an all-nighter<br>(a bundle of assignments was insane!)</p>
+      </td>
+      <td style="border: 2px solid #4A2040; padding: 20px; max-width: 300px;">
+        <p style="font-style: italic; font-size: 20px; color: #4A2040;">
+          "The nights you stayed up studying are the days you stand out."
+        </p>
+      </td>
+      <td style="border: 2px solid #4A2040; padding: 20px;">
+        <img src="images/huge2.jpeg" alt="Huge 2" style="width: 400px; height: auto;"><br>
+        <p>Secured the Dean's List<br>(for 3 semesters in a row!)</p>
+      </td>
+    </tr>
+
+    <!-- Row 2 -->
+    <tr>
+      <td style="border: 2px solid #4A2040; padding: 20px;">
+        <img src="images/little2.jpeg" alt="Little 2" style="width: 400px; height: auto;"><br>
+        <p>Hold the car steering for the first time!<br>(manage to drive few miles)</p>
+      </td>
+      <td style="border: 2px solid #4A2040; padding: 20px;">
+        <p style="font-style: italic; font-size: 20px; color: #4A2040;">
+          "Every accomplishment starts with the decision to try."
+        </p>
+      </td>
+      <td style="border: 2px solid #4A2040; padding: 20px;">
+        <img src="images/huge1.jpeg" alt="Huge 1" style="width: 400px; height: auto;"><br>
+        <p>Nailed the JPJ Test<br>(success at the first try!)</p>
+      </td>
+    </tr>
+
+    <!-- Row 3 -->
+    <tr>
+      <td style="border: 2px solid #4A2040; padding: 20px;">
+        <img src="images/little3.jpeg" alt="Little 3" style="width: 400px; height: auto;"><br>
+        <p>Manage to secured Rahsia Danny as a self reward<br>(it was thrilling!)</p>
+      </td>
+      <td style="border: 2px solid #4A2040; padding: 20px;">
+        <p style="font-style: italic; font-size: 20px; color: #4A2040;">
+          "Celebrate every win, no matter how small - you earned it."
+        </p>
+      </td>
+      <td style="border: 2px solid #4A2040; padding: 20px;">
+        <img src="images/huge3.jpeg" alt="Huge 3" style="width: 500px; height: auto;"><br>
+        <p>Got 5As for my SPM<br>(beyond my expectation!)</p>
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+
+
+
+<br>
+
+<p style="text-align:center; font-size: 20px;"><b>You made it here again? That’s dedication. Shall we continue the journey?</b></p>
+
+<br>
+
+<p style="text-align:center; font-size: 20px;"><b>Oh, before that, do you mind to answer the question below? Thanks!</b></p>
+
+
+<div style="text-align: center; background-color: #F4E1E1; padding: 20px; border: 3px solid #4A2040; border-radius: 10px; color: #4A2040; font-size: 18px;">
+
+  <form>
+    <textarea 
+      cols="40" 
+      rows="5" 
+      name="story" 
+      placeholder="What is your little/huge achievement so far?" 
+      style="padding: 10px; border-radius: 8px; border: 2px solid #4A2040; background-color: #FFF7F8; color: #4A2040; font-size: 16px; resize: none;"></textarea>
+    
+    <br><br>
+
+    <input 
+      type="submit" 
+      value="Submit" 
+      style="padding: 8px 16px; background-color: #4A2040; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 16px;">
+  </form>
+</div>
+
+
+
+
+
+<div class="footer">
+  <p>&copy 2025, Nur Fatin Najwa Azahar. All right reserved.
+<br>
+<a href="https://www.instagram.com/njwaazahar?igsh=ODlobW0zYW03aWJo" target="_blank">Contact Me</a>
+</p>
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+<body style="background-color:#CEBACF;">
+
+
+<div class="banner">
+       <img src="images/banner2.gif">
+    </div>
+
+
+<ul>
+  <li><a href="index.html">Home</a></li>
+
+  <li><a class="active" href="aboutmee.html">About Me</a></li>
+
+  <li><a href="favorites.html">Favorites</a></li>
+
+  <li><a href="photodump.html">Photo Dump</a></li>
+
+  <li><a href="achievements.html">Achievements</a></li>
+
+  <li><a href="hope.html">Hope</a></li>
+
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+
+
+
+<div style="text-align: center;">
+  <h2 style="color:#4A2040;">(psst...click this while scrolling. enjoy!)</h2>
+
+  <button onclick="document.getElementById('bgMusic').play()" 
+          style="padding: 10px 20px; background-color: #F4E1E1; color: #4A2040; border: none; border-radius: 8px; font-size: 16px; cursor: pointer;">
+    It's Definitely You - V & Jin
+  </button>
+  <p style="text-align: center;">Source: Internet Archive</p>
+
+  <br><br>
+
+  <audio id="bgMusic">
+    <source src="audio/itsdefinitelyyou.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+
+
+<div style="text-align: center; margin-top: 40px;">
+  <h1 style="color:#3B0A2A; font-size: 36px;">Myself</h1>
+</div>
+
+<div class="image-row-center" style="margin: 20px 0;">
+  <img src="images/myself.jpeg" alt="Myself" style="max-width: 280px; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+</div>
+
+<div style="border: 3px solid #4A2040; padding: 25px; background-color: #F4E1E1; max-width: 850px; margin: auto; color: #2C0B19; font-size: 18px; line-height: 2; border-radius: 12px; text-align: center;">
+  <p style="font-weight: bold; font-size: 20px;">Here are some details about myself</p>
+
+  <p><b>Name:</b> <em>Nur Fatin Najwa binti Azahar</em></p>
+  <p><b>Nickname:</b> <em>Najwa</em></p>
+  <p><b>Age:</b> <em>20 <b>(not that old yet!)</b></em></p>
+  <p><b>Birthday:</b> <em>14th September 2005</em></p>
+  <p><b>Siblings:</b> <em>4 (I'm the second and the only girl!)</em></p>
+  <p><b>Hobbies:</b> <em>Reading novels, listening to music <b>(BTS all the way!)</b>, watching movies</em></p>
+  <p><b>From:</b> <em>Seremban, Negeri Sembilan</em></p>
+  <p><b>Study:</b> <em>Diploma in Library Informatics at UiTM Merbok</em></p>
+  <p><b>Currently Vibing To:</b> <em>BTS, TWICE, Sabrina Carpenter (and some random Malay + Indo singers)</em></p>
+  <p><b>Dream Destination:</b> <em>Japan <b>(want to see Sakura flowers in real life!)</b></em></p>
+  <p><b>Addiction:</b> <em><b>MATCHA LATTE!</b></em></p>
+  <p><b>Fun Fact:</b> <em>Love to write! Used to write a few stories on Wattpad, <b>but never published them!</b></em></p>
+  <p><b>Not-So-Fun Fact:</b> <em>People are usually afraid to approach me... they say I have a <b>fierce face!</b></em></p>
+</div>
+
+
+
+
+<br>
+
+<div style="text-align: center;">
+   <h1 style="color:#4A2040;">My Family</h1>
+</div>
+
+
+<div class="image-block">
+   <img src="images/fam1.jpeg" alt="Family 1">
+   <p style="color:black;">Family graduation picture! (Black and White theme!)</p>
+</div>
+
+<div class="image-block">
+    <img src="images/fam2.jpeg" alt="Family 2">
+    <p style="color:#084C61;">2024 Eid picture! (Emerald green theme!)</p>
+</div>
+    
+<div class="image-block">
+    <img src="images/fam3.jpeg" alt="Family 3">
+    <p style="color:#FF2ECC;">2025 Eid selfie! (Pinky!)</p>
+ </div>
+  </div>
+
+
+<p style="text-align:center; font-size: 20px;"><b>You reach the bottom of this page! Again! So come on! Let's move to the next one shall we?</b></p>
+
+<br>
+
+<p style="text-align:center; font-size: 20px;"><b>Oh, before that, do you mind to answer the question below? Thanks!</b></p>
+
+
+
+<div style="text-align: center; background-color: #F4E1E1; padding: 20px; border: 3px solid #4A2040; border-radius: 10px; color: #4A2040; font-size: 18px;">
+
+  <p><b>Do you have any memorable moment with your family?</b></p>
+
+  <form>
+    <input type="radio" id="YES" name="fam_moment" value="YES">
+    <label for="YES">YES</label><br><br>
+    
+    <input type="radio" id="NO" name="fam_moment" value="NO">
+    <label for="NO">NO</label><br><br>
+
+    <input type="submit" value="Submit" style="padding: 8px 16px; background-color: #4A2040; color: white; border: none; border-radius: 6px; cursor: pointer;">
+  </form>
+
+  <br><br>
+
+  <form>
+    <textarea cols="40" rows="5" name="story" placeholder="If YES, what's the moment?&#10;If NO, why is that so?" style="padding: 10px; border-radius: 8px; border: 2px solid #4A2040; background-color: #FFF7F8; color: #4A2040;"></textarea>  
+    <br><br>
+    
+    <input type="submit" value="Submit" style="padding: 8px 16px; background-color: #4A2040; color: white; border: none; border-radius: 6px; cursor: pointer;">
+  </form>
+
+</div>
+
+
+
+
+<div class="footer">
+  <p>&copy 2025, Nur Fatin Najwa Azahar. All right reserved.
+<br>
+<a href="https://www.instagram.com/njwaazahar?igsh=ODlobW0zYW03aWJo" target="_blank">Contact Me</a>
+</p>
+</div>
+
+
+
+</body>
+</html>
